@@ -10,10 +10,15 @@ private let fizzle = (0 ..< 10000).shuffled()
 
 public struct Renderer {
     public private(set) var bitmap: Bitmap
+    private let width: Int
+    private let range: Range<Double>
     private let textures: Textures
 
-    public init(width: Int, height: Int, textures: Textures) {
-        self.bitmap = Bitmap(width: width, height: height, color: .black)
+    public init(width: Int, height: Int, range: Range<Double>, textures: Textures) {
+        self.width = width
+        self.range = range
+        let columns = Int(Double(width) * (range.upperBound - range.lowerBound))
+        self.bitmap = Bitmap(width: columns, height: height, color: .clear)
         self.textures = textures
     }
 }
@@ -21,16 +26,15 @@ public struct Renderer {
 public extension Renderer {
     mutating func draw(_ world: World) {
         let focalLength = 1.0
-        let viewWidth = Double(bitmap.width) / Double(bitmap.height)
+        let viewWidth = Double(width) / Double(bitmap.height)
         let viewPlane = world.player.direction.orthogonal * viewWidth
         let viewCenter = world.player.position + world.player.direction * focalLength
-        let viewStart = viewCenter - viewPlane / 2
+        let viewStart = viewCenter - viewPlane * (0.5 - range.lowerBound)
 
         // Cast rays
-        let columns = bitmap.width
-        let step = viewPlane / Double(columns)
+        let step = viewPlane / Double(width)
         var columnPosition = viewStart
-        for x in 0 ..< columns {
+        for x in 0 ..< bitmap.width {
             let rayDirection = columnPosition - world.player.position
             let viewPlaneDistance = rayDirection.length
             let ray = Ray(
@@ -128,7 +132,7 @@ public extension Renderer {
         let weaponWidth = screenHeight * aspectRatio
         bitmap.drawImage(
             weaponTexture,
-            at: Vector(x: Double(bitmap.width) / 2 - weaponWidth / 2, y: 0),
+            at: Vector(x: Double(width) * (0.5 - range.lowerBound) - weaponWidth / 2, y: 0),
             size: Vector(x: weaponWidth, y: screenHeight)
         )
 
