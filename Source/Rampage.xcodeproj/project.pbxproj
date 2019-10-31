@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0128F26223EEE7AE00439050 /* shotgunFire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0128F26123EEE7AE00439050 /* shotgunFire.mp3 */; };
 		0128F26423EEEB0A00439050 /* shotgunPickup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0128F26323EEEB0A00439050 /* shotgunPickup.mp3 */; };
+		0128F26523F1511000439050 /* medkit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013D492423ED607D00763FCA /* medkit.mp3 */; };
+		0128F26623F1511D00439050 /* shotgunPickup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0128F26323EEEB0A00439050 /* shotgunPickup.mp3 */; };
+		0128F26723F1512100439050 /* shotgunFire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0128F26123EEE7AE00439050 /* shotgunFire.mp3 */; };
 		012A0C4D22C96E150068E8EF /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012A0C4C22C96E150068E8EF /* Tile.swift */; };
 		012A0C4F22C96E1F0068E8EF /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012A0C4E22C96E1F0068E8EF /* Thing.swift */; };
 		012A0C6222CC200E0068E8EF /* Billboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012A0C6022CC200D0068E8EF /* Billboard.swift */; };
@@ -21,6 +24,15 @@
 		01467C3E22E6F54600B5607D /* Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01467C3D22E6F54600B5607D /* Easing.swift */; };
 		0159A3F523DEF636001EEB81 /* Pickup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159A3F423DEF636001EEB81 /* Pickup.swift */; };
 		015A23C9230586E3004CBB78 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015A23C8230586E3004CBB78 /* Switch.swift */; };
+		015B5237236B4D6500879492 /* Levels.json in Resources */ = {isa = PBXBuildFile; fileRef = 01D09B0022A493A70052745A /* Levels.json */; };
+		015B5238236B4D6500879492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016E41B9228E9A5E00ACF137 /* Assets.xcassets */; };
+		0160390D236836E200E22F31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160390C236836E200E22F31 /* AppDelegate.swift */; };
+		0160390F236836E200E22F31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160390E236836E200E22F31 /* ViewController.swift */; };
+		01603911236836E300E22F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01603910236836E300E22F31 /* Assets.xcassets */; };
+		01603914236836E300E22F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01603912236836E300E22F31 /* Main.storyboard */; };
+		0160391C2368370200E22F31 /* Engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016E41C9228E9A8600ACF137 /* Engine.framework */; };
+		0160391E2368377300E22F31 /* Engine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 016E41C9228E9A8600ACF137 /* Engine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0160392523683C0300E22F31 /* NSImage+Bitmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160392423683C0200E22F31 /* NSImage+Bitmap.swift */; };
 		016E41B3228E9A5B00ACF137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016E41B2228E9A5B00ACF137 /* AppDelegate.swift */; };
 		016E41B5228E9A5B00ACF137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016E41B4228E9A5B00ACF137 /* ViewController.swift */; };
 		016E41B8228E9A5B00ACF137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016E41B6228E9A5B00ACF137 /* Main.storyboard */; };
@@ -28,6 +40,20 @@
 		016E41BD228E9A5E00ACF137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016E41BB228E9A5E00ACF137 /* LaunchScreen.storyboard */; };
 		016E41D0228E9A8600ACF137 /* Engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016E41C9228E9A8600ACF137 /* Engine.framework */; };
 		016E41D1228E9A8600ACF137 /* Engine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 016E41C9228E9A8600ACF137 /* Engine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01792F2C23E600F6006616B3 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0199F57323E242D4003E3F08 /* SoundManager.swift */; };
+		01792F2D23E60128006616B3 /* pistolFire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55623E1A517003E3F08 /* pistolFire.mp3 */; };
+		01792F2E23E60128006616B3 /* monsterGroan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55F23E1A517003E3F08 /* monsterGroan.mp3 */; };
+		01792F2F23E60128006616B3 /* monsterSwipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55523E1A517003E3F08 /* monsterSwipe.mp3 */; };
+		01792F3023E60128006616B3 /* monsterHit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55A23E1A517003E3F08 /* monsterHit.mp3 */; };
+		01792F3123E60128006616B3 /* monsterDeath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55D23E1A517003E3F08 /* monsterDeath.mp3 */; };
+		01792F3223E60128006616B3 /* ricochet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55C23E1A517003E3F08 /* ricochet.mp3 */; };
+		01792F3323E60128006616B3 /* playerWalk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55923E1A517003E3F08 /* playerWalk.mp3 */; };
+		01792F3423E60128006616B3 /* playerDeath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55E23E1A517003E3F08 /* playerDeath.mp3 */; };
+		01792F3523E60128006616B3 /* squelch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55B23E1A517003E3F08 /* squelch.mp3 */; };
+		01792F3623E60128006616B3 /* doorSlide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55823E1A517003E3F08 /* doorSlide.mp3 */; };
+		01792F3723E60128006616B3 /* wallSlide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55723E1A517003E3F08 /* wallSlide.mp3 */; };
+		01792F3823E60128006616B3 /* wallThud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F56123E1A517003E3F08 /* wallThud.mp3 */; };
+		01792F3923E60128006616B3 /* switchFlip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F56023E1A517003E3F08 /* switchFlip.mp3 */; };
 		0199F56223E1A517003E3F08 /* monsterSwipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55523E1A517003E3F08 /* monsterSwipe.mp3 */; };
 		0199F56323E1A517003E3F08 /* pistolFire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55623E1A517003E3F08 /* pistolFire.mp3 */; };
 		0199F56423E1A517003E3F08 /* wallSlide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0199F55723E1A517003E3F08 /* wallSlide.mp3 */; };
@@ -63,6 +89,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0160391A236836FC00E22F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 016E41A7228E9A5B00ACF137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 016E41C8228E9A8600ACF137;
+			remoteInfo = Engine;
+		};
 		016E41CE228E9A8600ACF137 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 016E41A7228E9A5B00ACF137 /* Project object */;
@@ -80,6 +113,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0160391D2368375F00E22F31 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0160391E2368377300E22F31 /* Engine.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		016E41D5228E9A8600ACF137 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,6 +152,14 @@
 		01467C3D22E6F54600B5607D /* Easing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easing.swift; sourceTree = "<group>"; };
 		0159A3F423DEF636001EEB81 /* Pickup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickup.swift; sourceTree = "<group>"; };
 		015A23C8230586E3004CBB78 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		0160390A236836E200E22F31 /* RampageMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RampageMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0160390C236836E200E22F31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0160390E236836E200E22F31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01603910236836E300E22F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01603913236836E300E22F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01603915236836E300E22F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01603916236836E300E22F31 /* RampageMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RampageMac.entitlements; sourceTree = "<group>"; };
+		0160392423683C0200E22F31 /* NSImage+Bitmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+Bitmap.swift"; sourceTree = "<group>"; };
 		016E41AF228E9A5B00ACF137 /* Rampage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rampage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016E41B2228E9A5B00ACF137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		016E41B4228E9A5B00ACF137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +206,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		01603907236836E200E22F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0160391C2368370200E22F31 /* Engine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		016E41AC228E9A5B00ACF137 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -179,15 +239,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		016039042368365A00E22F31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0160390B236836E200E22F31 /* RampageMac */ = {
+			isa = PBXGroup;
+			children = (
+				0160390C236836E200E22F31 /* AppDelegate.swift */,
+				0160390E236836E200E22F31 /* ViewController.swift */,
+				0160392423683C0200E22F31 /* NSImage+Bitmap.swift */,
+				01603910236836E300E22F31 /* Assets.xcassets */,
+				01603912236836E300E22F31 /* Main.storyboard */,
+				01603915236836E300E22F31 /* Info.plist */,
+				01603916236836E300E22F31 /* RampageMac.entitlements */,
+			);
+			path = RampageMac;
+			sourceTree = "<group>";
+		};
 		016E41A6228E9A5B00ACF137 = {
 			isa = PBXGroup;
 			children = (
 				016E41B1228E9A5B00ACF137 /* Rampage */,
+				0160390B236836E200E22F31 /* RampageMac */,
 				016E41CA228E9A8600ACF137 /* Engine */,
 				01D0F5D722F80E1600682CA1 /* RampageTests */,
 				016E41B0228E9A5B00ACF137 /* Products */,
+				016039042368365A00E22F31 /* Frameworks */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		016E41B0228E9A5B00ACF137 /* Products */ = {
 			isa = PBXGroup;
@@ -195,6 +280,7 @@
 				016E41AF228E9A5B00ACF137 /* Rampage.app */,
 				016E41C9228E9A8600ACF137 /* Engine.framework */,
 				01D0F5D622F80E1600682CA1 /* RampageTests.xctest */,
+				0160390A236836E200E22F31 /* RampageMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -295,6 +381,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		01603909236836E200E22F31 /* RampageMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01603917236836E300E22F31 /* Build configuration list for PBXNativeTarget "RampageMac" */;
+			buildPhases = (
+				01603906236836E200E22F31 /* Sources */,
+				01603907236836E200E22F31 /* Frameworks */,
+				01603908236836E200E22F31 /* Resources */,
+				0160391D2368375F00E22F31 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0160391B236836FC00E22F31 /* PBXTargetDependency */,
+			);
+			name = RampageMac;
+			productName = RampageMac;
+			productReference = 0160390A236836E200E22F31 /* RampageMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		016E41AE228E9A5B00ACF137 /* Rampage */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 016E41C1228E9A5E00ACF137 /* Build configuration list for PBXNativeTarget "Rampage" */;
@@ -389,11 +494,39 @@
 				016E41AE228E9A5B00ACF137 /* Rampage */,
 				016E41C8228E9A8600ACF137 /* Engine */,
 				01D0F5D522F80E1600682CA1 /* RampageTests */,
+				01603909236836E200E22F31 /* RampageMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		01603908236836E200E22F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01792F2F23E60128006616B3 /* monsterSwipe.mp3 in Resources */,
+				01792F3223E60128006616B3 /* ricochet.mp3 in Resources */,
+				01792F3623E60128006616B3 /* doorSlide.mp3 in Resources */,
+				01792F3123E60128006616B3 /* monsterDeath.mp3 in Resources */,
+				01792F3023E60128006616B3 /* monsterHit.mp3 in Resources */,
+				01792F3523E60128006616B3 /* squelch.mp3 in Resources */,
+				01792F2D23E60128006616B3 /* pistolFire.mp3 in Resources */,
+				0128F26723F1512100439050 /* shotgunFire.mp3 in Resources */,
+				01792F3723E60128006616B3 /* wallSlide.mp3 in Resources */,
+				01792F2E23E60128006616B3 /* monsterGroan.mp3 in Resources */,
+				01792F3323E60128006616B3 /* playerWalk.mp3 in Resources */,
+				015B5237236B4D6500879492 /* Levels.json in Resources */,
+				01792F3423E60128006616B3 /* playerDeath.mp3 in Resources */,
+				01603911236836E300E22F31 /* Assets.xcassets in Resources */,
+				015B5238236B4D6500879492 /* Assets.xcassets in Resources */,
+				0128F26523F1511000439050 /* medkit.mp3 in Resources */,
+				01603914236836E300E22F31 /* Main.storyboard in Resources */,
+				0128F26623F1511D00439050 /* shotgunPickup.mp3 in Resources */,
+				01792F3923E60128006616B3 /* switchFlip.mp3 in Resources */,
+				01792F3823E60128006616B3 /* wallThud.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		016E41AD228E9A5B00ACF137 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,6 +571,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		01603906236836E200E22F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0160392523683C0300E22F31 /* NSImage+Bitmap.swift in Sources */,
+				01792F2C23E600F6006616B3 /* SoundManager.swift in Sources */,
+				0160390F236836E200E22F31 /* ViewController.swift in Sources */,
+				0160390D236836E200E22F31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		016E41AB228E9A5B00ACF137 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,6 +637,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0160391B236836FC00E22F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 016E41C8228E9A8600ACF137 /* Engine */;
+			targetProxy = 0160391A236836FC00E22F31 /* PBXContainerItemProxy */;
+		};
 		016E41CF228E9A8600ACF137 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 016E41C8228E9A8600ACF137 /* Engine */;
@@ -506,6 +655,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		01603912236836E300E22F31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01603913236836E300E22F31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		016E41B6228E9A5B00ACF137 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -525,6 +682,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		01603918236836E300E22F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RampageMac/RampageMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8VQKF583ED;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RampageMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charcoaldesign.RampageMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		01603919236836E300E22F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RampageMac/RampageMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8VQKF583ED;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RampageMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charcoaldesign.RampageMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		016E41BF228E9A5E00ACF137 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -683,6 +884,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -698,13 +900,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.charcoaldesign.Engine;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = "";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos macosx iphonesimulator";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+				"VALID_ARCHS[sdk=*]" = "i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -714,6 +921,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -730,12 +938,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.charcoaldesign.Engine;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = "";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos macosx iphonesimulator";
 				SWIFT_DISABLE_SAFETY_CHECKS = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -784,6 +996,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		01603917236836E300E22F31 /* Build configuration list for PBXNativeTarget "RampageMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01603918236836E300E22F31 /* Debug */,
+				01603919236836E300E22F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		016E41AA228E9A5B00ACF137 /* Build configuration list for PBXProject "Rampage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
